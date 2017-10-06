@@ -4,7 +4,12 @@ import logo from './abc.gif'
 import abcd from './Swaroop.jpg'
 import xyz from './wonderwoman.jpg'
 import './App.css';
-import Clock from './sample2.js';
+
+// import Example from './todayoct3.js'
+// import Welcome from './oct3.js';
+import Watch from './oct4one.js';
+import Toggle from './oct4two.js';
+import LoginComponent from './oct5one.js';
 class App extends Component {
   render() {
     return (
@@ -13,11 +18,19 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Swaroop's Reactor!</h1>
         </header>
-        <p className="App-intro">
+          {/* <p className="App-intro">
           Testing under process!!!
-          <p>You wont get the page right now. Don't worry, we will keep you poted ;)</p>
+          <p>You wont get the page right now. Don't worry, we will keep you posted ;)</p>
         </p>
-        <Clock />
+
+        <Example name = "Swaroop"/>
+        <Welcome name = "Seshi"/>
+        <Welcome name = "Pavan"/>
+        <Welcome/>    */}
+        <Watch/>
+        <Toggle/>
+        <LoginComponent/>
+
         <img src={abcd} className="App-abcd" alt="abcd" />
         <footer className="App-footer">
         <img src={xyz} className="App-xyz" alt="xyz" />
