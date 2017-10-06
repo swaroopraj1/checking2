@@ -5,10 +5,10 @@ class LoginComponent extends React.Component {
         this.state = {loggedin: true};
     }
     handlelogout= () => {
-        this.state({loggedin: true});
+        this.setState({loggedin: false});
     }
     handlelogin = () => {
-        this.state({loggedin: true});
+        this.setState({loggedin: true});
     }
     render() {
         let button= null;
@@ -20,7 +20,7 @@ class LoginComponent extends React.Component {
             button = <button onClick= {this.handlelogin}> Logout
                 </button>
         }
-        title = this.state.loggedin ? <h2>You are not logged in</h2>:<h2>Log in!</h2>
+        title = this.state.loggedin ? <h2>Click on the magical button to Login! </h2>:<h2>em ledu kada! inkem Logout kotti paduko</h2>
 
         return (
             <div>
