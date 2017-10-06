@@ -24,7 +24,7 @@ class LoginComponent extends React.Component {
 
         return (
             <div>
-                <h1> This is Today's Tasks! </h1>
+                <h1> This is Today's Task! </h1>
                 {title}
                 {button}
             </div>
