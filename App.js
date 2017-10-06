@@ -10,6 +10,7 @@ import './App.css';
 import Watch from './oct4one.js';
 import Toggle from './oct4two.js';
 import LoginComponent from './oct5one.js';
+import EmailComponent from './oct5two.js';
 class App extends Component {
   render() {
     return (
@@ -30,6 +31,7 @@ class App extends Component {
         <Watch/>
         <Toggle/>
         <LoginComponent/>
+        <EmailComponent newMessages= {["one","two","three","four"]}/>
 
         <img src={abcd} className="App-abcd" alt="abcd" />
         <footer className="App-footer">
