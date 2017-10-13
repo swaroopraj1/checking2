@@ -47,3 +47,29 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.blue {
+  background-color: blue;
+  color: rgb(27, 22, 22);
+  height: 40px;
+  width: 200px;
+  float: left;
+}
+.red {
+  background-color: red;
+  color: rgb(189, 240, 123);
+  height: 50px;
+  width: 200px;
+  float: right;
+}
+.brown {
+  background-color: brown;
+  color: rgb(2, 2, 0);
+  height: 60px;
+  float: top;
+}
+.silver {
+  background-color: silver;
+  color: rgb(28, 136, 224);
+  height: 70px;
+  float: bottom;
+}

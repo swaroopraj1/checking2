@@ -18,6 +18,7 @@ import Watch from './oct4one.js';
 import Toggle from './oct4two.js';
 import LoginComponent from './oct5one.js';
 import EmailComponent from './oct5two.js';
+import SplitPaneComponent from './composition.js';
 // import DetailsComponent from './oct6one.js';
 
 //injectTapEventPlugin();
@@ -71,6 +72,9 @@ class App extends Component {
         </div>
       </MuiThemeProvider> */}
       <Converter/>
+      <SplitPaneComponent/>
+      
+      
      
         
 
