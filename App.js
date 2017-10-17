@@ -8,7 +8,7 @@ import logo from './abc.gif'
 import abcd from './Swaroop.jpg'
 import xyz from './wonderwoman.jpg'
 import './App.css';
-//import Form from './matui.js';
+import Form from './matui.js';
 import Converter from './liftingup.js';
 
 
@@ -19,6 +19,7 @@ import Toggle from './oct4two.js';
 import LoginComponent from './oct5one.js';
 import EmailComponent from './oct5two.js';
 import SplitPaneComponent from './composition.js';
+import MyBlog from './Router.js'
 // import DetailsComponent from './oct6one.js';
 
 //injectTapEventPlugin();
@@ -60,7 +61,7 @@ class App extends Component {
         <Toggle/>
         <LoginComponent/>
         <EmailComponent newMessages= {["one","two","three","four"]}/>
-        {/* <Form/> */}
+        {<Form/>}
         {/* <DetailsComponent details= {details}/>  */}
 
         {/* <MuiThemeProvider>
@@ -73,7 +74,8 @@ class App extends Component {
       </MuiThemeProvider> */}
       <Converter/>
       <SplitPaneComponent/>
-      
+      <MyBlog/>
+     
       
      
         
