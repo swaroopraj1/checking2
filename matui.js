@@ -39,7 +39,7 @@ export default class Form extends React.Component {
   render() {
     return (
       <form>
-        <h1> This shouldn't be displaying like this! &#x2639; </h1>
+        <h1> This shouldnt be displaying like this! &#x2639; </h1>
         <TextField
         name="firstName"
         hintText="First name"

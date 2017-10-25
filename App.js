@@ -8,9 +8,11 @@ import logo from './abc.gif'
 import abcd from './Swaroop.jpg'
 import xyz from './wonderwoman.jpg'
 import './App.css';
-import Form from './matui.js';
-import Converter from './liftingup.js';
-
+import Form from './matui.js'
+import Converter from './liftingup.js'
+import Assignment from './Assignment.js'
+// import WashMashgallery from './abc.js'
+// import WashMash from './efg.js'
 
 // import Example from './todayoct3.js'
 // import Welcome from './oct3.js';
@@ -19,7 +21,8 @@ import Toggle from './oct4two.js';
 import LoginComponent from './oct5one.js';
 import EmailComponent from './oct5two.js';
 import SplitPaneComponent from './composition.js';
-import MyBlog from './Router.js'
+import MyBlog from './Router.js';
+import Example from './Assignment.js';
 // import DetailsComponent from './oct6one.js';
 
 //injectTapEventPlugin();
@@ -75,7 +78,11 @@ class App extends Component {
       <Converter/>
       <SplitPaneComponent/>
       <MyBlog/>
-     
+      <Example/>
+      <Assignment/>
+      {/* <WashMashgallery/>
+      <WashMash/> */}
+
       
      
         
